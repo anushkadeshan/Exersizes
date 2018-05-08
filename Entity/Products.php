@@ -3,11 +3,11 @@
 namespace Entity;
 
 class Products{
-		private $product_id;
-		private $name;
-		private $description;
-		private $price;
-		private $image;
+		public $product_id;
+		public $name;
+		public $description;
+		public $price;
+		public $image;
 	
 
 public function get_data(){

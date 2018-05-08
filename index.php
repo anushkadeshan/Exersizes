@@ -105,13 +105,13 @@
 						
 					?>
 				    <li>
-				    	<a href="#"><img src="<?php echo $pro->get_data()->image; ?>" alt="" /></a>
+				    	<a href="#"><img src="<?php echo $pro->image; ?>" alt="" /></a>
 				    	<div class="product-info">
 				    		<h3><?php echo $pro->name; ?></h3>
 				    		<div class="product-desc">
-								<h4>WOMEN’S</h4>
-				    			<p>Lorem ipsum dolor sit<br />amet</p>
-				    			<strong class="price">$58.99</strong>
+								<h4><?php echo $pro->description; ?></h4>
+				    			<p><?php echo $pro->description; ?><br /></p>
+				    			<strong class="price">$<?php echo $pro->price; ?></strong>
 				    		</div>
 				    	</div>
 			    	</li>
